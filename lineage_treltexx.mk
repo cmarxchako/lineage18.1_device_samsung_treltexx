@@ -15,8 +15,8 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/trelte-common/device-common.mk)
 $(call inherit-product, device/samsung/treltexx/device.mk)
+$(call inherit-product, device/samsung/trelte-common/device-common.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
